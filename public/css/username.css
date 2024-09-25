@@ -1,0 +1,47 @@
+/* username.css */
+
+/* Basic reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set a default font */
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f0f0f0; /* Background color */
+}
+
+h1 {
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Arrange form elements in a column */
+    align-items: center; /* Center form elements */
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0; /* Space between inputs */
+    width: 300px; /* Width of the input fields */
+    border: 1px solid #ccc; /* Border around input */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
